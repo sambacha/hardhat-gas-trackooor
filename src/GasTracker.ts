@@ -1,5 +1,5 @@
 import type * as ethers from 'ethers';
-
+import { HardhatRuntimeEnvironment } from "hardhat/types";
 import * as gasColors from './GasColors.json';
 import { GasData, GasTrackerConfig } from './types';
 
